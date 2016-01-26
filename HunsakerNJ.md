@@ -57,3 +57,59 @@ Date:   Fri Jan 22 07:51:32 2016 -0700
 
 ## BIABL WEBSITE
 
+# Tue Jan 26 12:14:14 MST 2016
+
+## MIOS
+
+commit 24be54e9815864752357353141596a001d1c0ab1
+Author: njhunsak <naomi.hunsaker@byu.edu>
+Date:   Mon Jan 25 11:14:23 2016 -0700
+
+    Added TBSS analysis results
+    
+    Ran TBSS analysis from scratch and generated results. No significant
+    results.
+
+## GIST
+
+
+## BIABL WEBSITE
+
+
+## DTI COMPARISON MANUSCRIPT
+
+commit 82188922b23dcf7e9c947d5992e77cd7d9725a33
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 15:46:56 2016 -0700
+
+    Update introduction
+
+commit 6f2e042ee17e93fbbc1c94d227bf778a43559224
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 14:27:39 2016 -0700
+
+    Added more articles to review
+
+commit 03deca28790fab251fae32a3fbcf66b84b9a0b67
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 14:21:44 2016 -0700
+
+    Added manuscript
+
+commit 8342318962dcf32c94ad3ec6dd1342f16b97211d
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 14:19:52 2016 -0700
+
+    Added folder for manuscripts to read
+
+commit 3029de1ceb813faaeb194e1ebfbf4690c4f46b06
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 14:18:08 2016 -0700
+
+    Initial commit
+
+commit c66162995e4ad7ca0929aed3a7994ab287acebbe
+Author: Naomi H <njhunsak@users.noreply.github.com>
+Date:   Mon Jan 25 14:17:43 2016 -0700
+
+    Initial ShareLaTeX Import
