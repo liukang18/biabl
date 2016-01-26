@@ -1,3 +1,13 @@
+# Thu Jan 21 13:00:00 MST 2016
+
+## UCSD Research Project
+
+We are nearing completion on data gathering.  We have approximately 15 more MRI scans that have to be run and sent to us.  At this point in time, we have 237 scans and we have a few that still need quality checks and that is being done by Chris Finuf and Josh Tate.  Once the database is completed, we will proceed with the volumetric analyses using the Aseg and Aparc Files and Dawn-Marie will be in charge of that Excel spreadsheet and running the analysis and Chris Finuf and Josh Tate will be involved in the QDEQQ analyses, specifically looking at cortical volume, cortical thickness and gyrification.  Zachary Christensen will be applying an ANTs template to this dataset once completed and he will oversee the comparisons between FreeSurfer and ANTS in terms of which technique may be the most robust.
+
+This will be updated at the next lab meeting in February.
+
+The different researcher  that are on the UCSD project will be networked, linking through the lab webpage and posting any issues, problems, changes and providing documentation of what is done. Basic record keeping will be kept in each lab book. Next lab meeting we will focus on the 'Mild Injury Outcome Study' (MIOS).
+
 # Tue Jan 26 11:49:03 MST 2016
 
 ## MIOS
