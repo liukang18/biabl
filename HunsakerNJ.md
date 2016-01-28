@@ -129,3 +129,44 @@ Author: Naomi H <njhunsak@users.noreply.github.com>
 Date:   Mon Jan 25 14:17:43 2016 -0700
 
     Initial ShareLaTeX Import
+# Thu Jan 28 15:47:08 MST 2016
+
+## MIOS
+
+commit 40beaaa02052f9d766dcaeab3f13bb8769e3a989
+Author: Naomi Hunsaker <njhunsaker@icloud.com>
+Date:   Thu Jan 28 12:04:02 2016 -0700
+
+    DTI analysis status
+    
+    Added file that shows what participants I have processed for the DTI
+    analysis and what participants are missing / have unusable data.
+
+commit f9ab8d65e86e0bfb2d46f9797ad71f0d1f812d3a
+Author: Naomi Hunsaker <njhunsaker@icloud.com>
+Date:   Thu Jan 28 11:31:21 2016 -0700
+
+    Moved demographics file for easier access
+
+## GIST
+
+
+## BIABL WEBSITE
+
+
+## DTI COMPARISON MANUSCRIPT
+
+commit 39f65d4c5277226c5dae146ab565bcdff6ec2979
+Author: Naomi Hunsaker <njhunsaker@icloud.com>
+Date:   Thu Jan 28 14:55:08 2016 -0700
+
+    Manuscript Update
+    
+    Got a lot of the supplemental section completed, most of the TBSS
+    section and started on the AFQ section.
+
+commit 800ab8d692ff9d1cf265baab828c314bac3b8a00
+Author: njhunsak <naomi.hunsaker@byu.edu>
+Date:   Thu Jan 28 10:49:52 2016 -0700
+
+    Updated to manuscript in progress
