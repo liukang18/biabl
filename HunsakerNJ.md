@@ -1,3 +1,19 @@
+## Contents
+
+- [Thu Jan 21 13:00:00 MST 2016](#thu-jan-21-130000-mst-2016)
+    - [UCSD Research Project](#ucsd-research-project)
+- [Tue Jan 26 11:49:03 MST 2016](#tue-jan-26-114903-mst-2016)
+    - [MIOS](#mios)
+    - [GIST](#gist)
+    - [BIABL WEBSITE](#biabl-website)
+- [Tue Jan 26 12:14:14 MST 2016](#tue-jan-26-121414-mst-2016)
+    - [MIOS](#mios)
+    - [GIST](#gist)
+    - [BIABL WEBSITE](#biabl-website)
+    - [DTI COMPARISON MANUSCRIPT](#dti-comparison-manuscript)
+
+<!-- end toc -->
+
 # Thu Jan 21 13:00:00 MST 2016
 
 ## UCSD Research Project
