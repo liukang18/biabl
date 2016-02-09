@@ -164,7 +164,7 @@ Author: njhunsak <naomi.hunsaker@byu.edu>
 Date:   Thu Jan 28 10:49:52 2016 -0700
 
     Updated to manuscript in progress
-# Tue Feb  9 15:17:40 MST 2016
+# Tue Feb 9 15:17:40 MST 2016
 
 ## MIOS
 
