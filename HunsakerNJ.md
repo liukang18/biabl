@@ -1,16 +1,31 @@
+<<<<<<< HEAD
 ## Contents
 
 - [Thu Jan 21 13:00:00 MST 2016](#thu-jan-21-130000-mst-2016)
-    - [UCSD Research Project](#ucsd-research-project)
 - [Tue Jan 26 11:49:03 MST 2016](#tue-jan-26-114903-mst-2016)
-    - [MIOS](#mios)
-    - [GIST](#gist)
-    - [BIABL WEBSITE](#biabl-website)
 - [Tue Jan 26 12:14:14 MST 2016](#tue-jan-26-121414-mst-2016)
-    - [MIOS](#mios)
-    - [GIST](#gist)
-    - [BIABL WEBSITE](#biabl-website)
-    - [DTI COMPARISON MANUSCRIPT](#dti-comparison-manuscript)
+- [Thu Jan 28 15:47:08 MST 2016](#thu-jan-28-154708-mst-2016)
+- [Tue Feb 9 15:17:40 MST 2016](#tue-feb-9-151740-mst-2016) 
+=======
+**Table of Contents**
+
+- [Thu Jan 21 13:00:00 MST 2016](#)
+	- [UCSD Research Project](#)
+- [Tue Jan 26 11:49:03 MST 2016](#)
+	- [MIOS](#)
+	- [GIST](#)
+	- [BIABL WEBSITE](#)
+- [Tue Jan 26 12:14:14 MST 2016](#)
+	- [MIOS](#)
+	- [GIST](#)
+	- [BIABL WEBSITE](#)
+	- [DTI COMPARISON MANUSCRIPT](#)
+- [Thu Jan 28 15:47:08 MST 2016](#)
+	- [MIOS](#)
+	- [GIST](#)
+	- [BIABL WEBSITE](#)
+	- [DTI COMPARISON MANUSCRIPT](#)
+>>>>>>> origin/master
 
 <!-- end toc -->
 
@@ -170,3 +185,21 @@ Author: njhunsak <naomi.hunsaker@byu.edu>
 Date:   Thu Jan 28 10:49:52 2016 -0700
 
     Updated to manuscript in progress
+# Tue Feb  9 15:17:40 MST 2016
+
+## MIOS
+
+
+## GIST
+
+
+## BIABL WEBSITE
+
+
+## DTI COMPARISON MANUSCRIPT
+
+commit 807fee19808043aea46b6ae93b749d867c1b1439
+Author: njhunsak <njhunsaker@icloud.com>
+Date:   Tue Feb 9 15:14:33 2016 -0700
+
+    Still working on draft
