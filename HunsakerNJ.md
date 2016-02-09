@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Contents
 
 - [Thu Jan 21 13:00:00 MST 2016](#thu-jan-21-130000-mst-2016)
@@ -7,31 +5,6 @@
 - [Tue Jan 26 12:14:14 MST 2016](#tue-jan-26-121414-mst-2016)
 - [Thu Jan 28 15:47:08 MST 2016](#thu-jan-28-154708-mst-2016)
 - [Tue Feb 9 15:17:40 MST 2016](#tue-feb-9-151740-mst-2016) 
-=======
-=======
->>>>>>> origin/master
-**Table of Contents**
-
-- [Thu Jan 21 13:00:00 MST 2016](#)
-	- [UCSD Research Project](#)
-- [Tue Jan 26 11:49:03 MST 2016](#)
-	- [MIOS](#)
-	- [GIST](#)
-	- [BIABL WEBSITE](#)
-- [Tue Jan 26 12:14:14 MST 2016](#)
-	- [MIOS](#)
-	- [GIST](#)
-	- [BIABL WEBSITE](#)
-	- [DTI COMPARISON MANUSCRIPT](#)
-- [Thu Jan 28 15:47:08 MST 2016](#)
-	- [MIOS](#)
-	- [GIST](#)
-	- [BIABL WEBSITE](#)
-	- [DTI COMPARISON MANUSCRIPT](#)
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 
 <!-- end toc -->
 
