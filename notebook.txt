@@ -1,0 +1,21 @@
+echo -e "# $(date)" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/MIOS/
+echo -e "\n## MIOS\n" >> ~/git/lab-notebooks/HunsakerNJ.md
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+echo -e "\n## GIST\n" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/code-snippets/INS-2016/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/code-snippets/MIOS-AFQ/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/code-snippets/sobik-template/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/code-snippets/structural-neuroimaging-findings-in-mild-traumatic-brain-injury/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/code-snippets/MIOS-TBSS/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+echo -e "\n## BIABL WEBSITE\n" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/biabl.github.io/
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
+cd ~/git/DTI-Comparison/
+echo -e "\n## DTI COMPARISON MANUSCRIPT\n" >> ~/git/lab-notebooks/HunsakerNJ.md
+git log --since="2016-02-17" >> ~/git/lab-notebooks/HunsakerNJ.md
