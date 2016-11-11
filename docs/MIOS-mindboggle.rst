@@ -18,7 +18,6 @@ https://docs.docker.com/engine/installation/
 3. Edit Dockerfile
 
 .. code-block:: bash
-   :linenos:
 
  # Enable neurodebian
  # RUN curl -sSL http://neuro.debian.net/lists/vivid.de-m.full | tee /etc/apt/sources.list.d/neurodebian.sources.list && \
