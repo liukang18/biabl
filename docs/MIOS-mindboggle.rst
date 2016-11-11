@@ -1,5 +1,5 @@
-Template
-=============
+Mindboggle
+===========
 
 Installation
 ------------
