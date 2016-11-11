@@ -7,3 +7,4 @@ Welcome!
    :caption: MIOS
 
    MIOS-template
+   MIOS-mindboggle
