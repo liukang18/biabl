@@ -7,6 +7,7 @@ Welcome!
    :caption: MIOS
 
    MIOS-template
+   MIOS-preprocess
    MIOS-mindboggle
 
 .. toctree::

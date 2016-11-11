@@ -97,6 +97,6 @@ Submit job script::
 	var=`date +"%Y%m%d-%H%M%S"`
 	mkdir -p ~/logfiles/${var}
 	sbatch \
-	-o ~/logfiles/${var}/output-initial.txt \
-	-e ~/logfiles/${var}/error-initial.txt \
+	-o ~/logfiles/${var}/output-template.txt \
+	-e ~/logfiles/${var}/error-template.txt \
 	/fslhome/intj5/scripts/MIOS/template/template.sh
