@@ -57,6 +57,7 @@ Mindboggle takes as its input preprocessed brain MR image data. Mindboggle curre
 **ANTs** provides brain volume extraction, segmentation, and registration-based labeling. To generate the ANTs transforms and segmentation files used by Mindboggle, run the antsCorticalThickness.sh script on the same T1-weighted image:
 
 
+
 Run Program
 -----------
 
