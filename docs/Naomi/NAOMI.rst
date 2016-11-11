@@ -1,1 +1,0 @@
-.. include:: ../NAOMI.rst

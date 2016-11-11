@@ -1,5 +1,8 @@
-TBM
-===
+MIOS
+====
+
+Template
+--------
 
 Copy images for template construction::
 
