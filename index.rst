@@ -1,6 +1,0 @@
-Welcome!
-========
-
-Contents:
-
-.. toctree::
