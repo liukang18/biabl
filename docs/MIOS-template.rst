@@ -20,7 +20,7 @@ Copy and paste code::
 
 	#!/bin/bash
 
-	#SBATCH --time=03:00:00   # walltime
+	#SBATCH --time=02:00:00   # walltime
 	#SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
 	#SBATCH --nodes=1   # number of nodes
 	#SBATCH --mem-per-cpu=16384M  # memory per CPU core
@@ -100,4 +100,3 @@ Submit job script::
 	-o ~/logfiles/${var}/output-initial.txt \
 	-e ~/logfiles/${var}/error-initial.txt \
 	/fslhome/intj5/scripts/MIOS/template/template.sh
-
