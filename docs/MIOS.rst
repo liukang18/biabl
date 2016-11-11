@@ -4,8 +4,7 @@ MIOS
 Template
 --------
 
-Copy images for template construction
-:: bash
+Copy images for template construction:: bash
 
    mkdir -p ~/templates/MIOS
    for i in $(ls ~/compute/images/MIOS/); do
