@@ -6,30 +6,29 @@ Installing Mindboggle
 
 1. Install and run Docker on your (macOS, Linux, or Windows) host machine:
 
-   https://docs.docker.com/engine/installation/
+https://docs.docker.com/engine/installation/
 
 2. Clone the Mindboggle Docker app (copy into a terminal window):
 
 .. code-block:: bash
 
-	git clone https://github.com/BIDS-Apps/mindboggle;
-	mindboggle;
+  git clone https://github.com/BIDS-Apps/mindboggle;
+  mindboggle;
 
 3. Edit Dockerfile
 
 .. code-block:: bash
-	:linenos:
-	:start-after: 39
+   :linenos:
 
-	# Enable neurodebian
-	# RUN curl -sSL http://neuro.debian.net/lists/vivid.de-m.full | tee /etc/apt/sources.list.d/neurodebian.sources.list && \
-	#     curl -sSL http://neuro.debian.net/lists/vivid.us-tn.full >> /etc/apt/sources.list.d/neurodebian.sources.list && \
-	#     apt-key adv --recv-keys --keyserver hkp://pgp.mit.edu:80 0xA5D32F012649A5A9 && \
-	#     apt-get update #&& \
+ # Enable neurodebian
+ # RUN curl -sSL http://neuro.debian.net/lists/vivid.de-m.full | tee /etc/apt/sources.list.d/neurodebian.sources.list && \
+ #     curl -sSL http://neuro.debian.net/lists/vivid.us-tn.full >> /etc/apt/sources.list.d/neurodebian.sources.list && \
+ #     apt-key adv --recv-keys --keyserver hkp://pgp.mit.edu:80 0xA5D32F012649A5A9 && \
+ #     apt-get update #&& \
 
-	RUN curl -sSL http://neuro.debian.net/lists/vivid.us-ca.full | tee /etc/apt/sources.list.d/neurodebian.sources.list && \
-    apt-key adv --recv-keys --keyserver hkp://pgp.mit.edu:80 0xA5D32F012649A5A9 && \
-    apt-get update #&& \
+ RUN curl -sSL http://neuro.debian.net/lists/vivid.us-ca.full | tee /etc/apt/sources.list.d/neurodebian.sources.list && \
+ apt-key adv --recv-keys --keyserver hkp://pgp.mit.edu:80 0xA5D32F012649A5A9 && \
+ apt-get update #&& \
 
 Initial Template
 ----------------
@@ -126,4 +125,3 @@ Submit job script::
 	-o ~/logfiles/${var}/output-initial.txt \
 	-e ~/logfiles/${var}/error-initial.txt \
 	/fslhome/intj5/scripts/MIOS/template/template.sh
-
