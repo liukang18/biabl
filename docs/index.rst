@@ -1,10 +1,8 @@
 Welcome!
 ========
 
-Contents:
-
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :glob:
 
    Naomi/MIOS/*

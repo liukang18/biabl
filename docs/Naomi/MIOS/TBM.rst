@@ -1,10 +1,8 @@
 TBM
 ===
 
-Copy images for template construction
+Copy images for template construction::
 
-.. code:: bash
-   :linenos:
    mkdir -p ~/templates/MIOS
    for i in $(ls ~/compute/images/MIOS/); do
    cp -v ~/compute/images/MIOS/$i/t1/t1.nii.gz ~/templates/MIOS/img_${i}.nii.gz;
