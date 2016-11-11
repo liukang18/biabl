@@ -1,1 +1,0 @@
-Search.setIndex({envversion:49,filenames:["Naomi/MIOS/TBM","index"],objects:{},objnames:{},objtypes:{},terms:{build:0,construct:0,content:1,copi:0,imag:0,index:1,initi:0,modul:1,page:1,search:1,templat:0},titles:["TBM","Welcome to Lab Notebook&#8217;s documentation!"],titleterms:{document:1,indice:1,lab:1,notebook:1,tabl:1,tbm:0,welcom:1}})
