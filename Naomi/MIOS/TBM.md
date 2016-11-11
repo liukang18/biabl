@@ -1,24 +1,19 @@
----
-title: "MIOS Tensor Based Morphometry"
-output:
-  html_document: default
-  html_notebook: default
----
+# MIOS Tensor Based Morphometry
 
-# Template
+## Template
 
 Copy images for template construction
 
-```{bash}
+```bash
 mkdir -p ~/templates/MIOS
 for i in $(ls ~/compute/images/MIOS/); do
-cp -v ~/compute/images/MIOS/$i/t1/t1.nii.gz ~/templates/MIOS/img_${i}.nii.gz; 
+cp -v ~/compute/images/MIOS/$i/t1/t1.nii.gz ~/templates/MIOS/img_${i}.nii.gz;
 done
 ```
 
 Build initial template
 
-```{bash}
+```bash
 #!/bin/bash
 
 #SBATCH --time=09:00:00   # walltime
