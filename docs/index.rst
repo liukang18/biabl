@@ -4,4 +4,4 @@ Welcome!
 .. toctree::
    :glob:
 
-   Naomi/*
+   Naomi/MIOS/*
