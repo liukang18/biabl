@@ -1,5 +1,5 @@
-Mindboggle
-==========
+Template
+=============
 
 Installation
 ------------
@@ -40,7 +40,7 @@ Set the path on your host machine for the Docker container to access Mindboggle 
 Preprocessing
 -------------
 
-Mindboggle takes as its input preprocessed brain MR image data. Mindboggle currently takes output from FreeSurfer (v6 or higher recommended) and optionally from ANTs (v2.1.0rc3 or higher recommended; v2.1.0 is included in the Docker app).
+Mindboggle takes as its input preprocessed brain MR image data. Mindboggle currently takes output from FreeSurfer (v5.3 or higher recommended) and optionally from ANTs (v2.1.0rc3 or higher recommended; v2.1.0 is included in the Docker app).
 
 
 **FreeSurfer** generates labeled cortical surfaces, and labeled cortical and noncortical volumes. Run recon-all on a T1-weighted image:
