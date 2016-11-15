@@ -1,5 +1,5 @@
 Mindboggle
-===========
+==========
 
 Installation
 ------------
@@ -42,7 +42,6 @@ Preprocessing
 
 Mindboggle takes as its input preprocessed brain MR image data. Mindboggle currently takes output from FreeSurfer (v5.3 or higher recommended) and optionally from ANTs (v2.1.0rc3 or higher recommended; v2.1.0 is included in the Docker app).
 
-
 **FreeSurfer** generates labeled cortical surfaces, and labeled cortical and noncortical volumes. Run recon-all on a T1-weighted image:
 
 .. code-block:: bash
@@ -55,8 +54,6 @@ Mindboggle takes as its input preprocessed brain MR image data. Mindboggle curre
   -sd /fslhome/intj5/compute/analyses/MIOS/FreeSurferv530/
 
 **ANTs** provides brain volume extraction, segmentation, and registration-based labeling. To generate the ANTs transforms and segmentation files used by Mindboggle, run the antsCorticalThickness.sh script on the same T1-weighted image:
-
-
 
 Run Program
 -----------

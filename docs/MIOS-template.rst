@@ -1,7 +1,9 @@
 Template
 ========
 
-Copy preprocessed (insert reference) images for template construction::
+Copy preprocessed (insert reference) images for template construction:
+
+.. code-block:: bash
 
    mkdir -p ~/templates/MIOS
    for i in $(ls ~/compute/images/MIOS/); do
@@ -12,11 +14,15 @@ Copy preprocessed (insert reference) images for template construction::
 Initial Template
 ----------------
 
-Create a job script::
+Create a job script:
+
+.. code-block:: bash
 
 	vi /fslhome/intj5/scripts/MIOS/template/initial.sh
 
-Copy and paste code::
+Copy and paste code:
+
+.. code-block:: bash
 
 	#!/bin/bash
 
@@ -46,7 +52,9 @@ Copy and paste code::
 	-c 5 \
 	img*.nii.gz
 
-Submit job script::
+Submit job script:
+
+.. code-block:: bash
 
 	var=`date +"%Y%m%d-%H%M%S"`
 	mkdir -p ~/logfiles/${var}
@@ -58,11 +66,15 @@ Submit job script::
 Template
 --------
 
-Create a job script::
+Create a job script:
+
+.. code-block:: bash
 
 	vi /fslhome/intj5/scripts/MIOS/template/template.sh
 
-Copy and paste code::
+Copy and paste code:
+
+.. code-block:: bash
 
 	#!/bin/bash
 
@@ -92,7 +104,9 @@ Copy and paste code::
 	-c 5 \
 	img*.nii.gz
 
-Submit job script::
+Submit job script:
+
+.. code-block:: bash
 
 	var=`date +"%Y%m%d-%H%M%S"`
 	mkdir -p ~/logfiles/${var}
@@ -100,3 +114,31 @@ Submit job script::
 	-o ~/logfiles/${var}/output-template.txt \
 	-e ~/logfiles/${var}/error-template.txt \
 	/fslhome/intj5/scripts/MIOS/template/template.sh
+
+Align Template
+--------------
+
+For whatever reason, the population template was not at all aligned when it was created, so I rigidly aligned it to the NKI template. Trying the run the image through acpcdetect absolutely didn't work.
+
+.. code-block:: bash
+
+  ~/apps/ants/bin/antsRegistrationSyNQuick.sh \
+  -d 3 \
+  -f ~/templates/NKI/T_template.nii.gz \
+  -m ~/templates/MIOS/pt2template.nii.gz \
+  -o ~/templates/MIOS/aligned_ \
+  -t r
+
+Clean Up Directory
+------------------
+
+.. code-block:: bash
+
+  cd ~/templates/MIOS
+  mkdir data
+  mv img*.nii.gz data/
+  mv aligned_Warped.nii.gz template.nii.gz
+  find . \( ! -name "data" ! -name "img*.nii.gz" ! -name "template.nii.gz" \) -exec rm -rf {} \;
+
+Tissue Segmentation
+-------------------
