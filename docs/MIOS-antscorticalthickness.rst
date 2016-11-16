@@ -69,12 +69,12 @@ Copy and paste:
   #!/bin/bash
 
   for subj in $(ls ~/compute/images/MIOS/); do
-  sbatch \
-  -o ~/logfiles/${1}/output_${subj}.txt \
-  -e ~/logfiles/${1}/error_${subj}.txt \
-  ~/scripts/MIOS/antsCT_OASIS30_job.sh \
-  ${subj}
-  sleep 1
+    sbatch \
+    -o ~/logfiles/${1}/output_${subj}.txt \
+    -e ~/logfiles/${1}/error_${subj}.txt \
+    ~/scripts/MIOS/antsCT_OASIS30_job.sh \
+    ${subj}
+    sleep 1
   done
 
 Submit Jobs

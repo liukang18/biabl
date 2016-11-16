@@ -18,13 +18,13 @@ Create a job script:
 
 .. code-block:: bash
 
-  vi /fslhome/intj5/scripts/MIOS/template-inital.sh
+  vi /fslhome/intj5/scripts/MIOS/template-initial.sh
 
 Copy and paste code:
 
 .. code-block:: bash
 
-	#!/bin/bash
+  #!/bin/bash
 
   #SBATCH --time=02:00:00   # walltime
   #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
