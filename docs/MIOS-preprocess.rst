@@ -180,3 +180,13 @@ Submit Job
   var=`date +"%Y%m%d-%H%M%S"`
   mkdir -p ~/logfiles/$var
   sh ~/scripts/MIOS/preprocess_batch.sh $var
+
+Sync Data
+---------
+
+.. code-block:: bash
+
+  rsync \
+  -rauv \
+  intj5@ssh.fsl.byu.edu:~/compute/images/MIOS/ \
+  /Volumes/data/images/MIOS/
