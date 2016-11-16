@@ -107,5 +107,76 @@ Sync Data
   rsync -rauv \
   --exclude=".*" \
   --exclude="DICOMs" \
-  /Volumes/data/images/MIOS \
+  /Volumes/data/images/MIOS/ \
   intj5@ssh.fsl.byu.edu:~/compute/images/MIOS/
+
+Job Script
+----------
+
+Create script:
+
+.. code-block:: bash
+
+  vi ~/scripts/MIOS/preprocess_job.sh
+
+Copy and paste code:
+
+.. code-block:: bash
+
+  #!/bin/bash
+
+  #SBATCH --time=00:15:00   # walltime
+  #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
+  #SBATCH --nodes=1   # number of nodes
+  #SBATCH --mem-per-cpu=32768M  # memory per CPU core
+
+  # COMPATABILITY VARIABLES FOR PBS. DO NO DELETE.
+  export PBS_NODEFILE=`/fslapps/fslutils/generate_pbs_nodefile`
+  export PBS_JOBID=$SLURM_JOB_ID
+  export PBS_O_WORKDIR="$SLURM_SUBMIT_DIR"
+  export PBS_QUEUE=batch
+  export OMP_NUM_THREADS=$SLURM_CPUS_ON_NODE
+
+  # LOAD ENVIRONMENTAL VARIABLES
+  var=`id -un`
+  export ANTSPATH=/fslhome/${var}/apps/ants/bin/
+  PATH=${ANTSPATH}:${PATH}
+
+  # INSERT CODE, AND RUN YOUR PROGRAMS HERE
+  DATA_DIR=~/compute/images/MIOS/${1}/
+  ~/apps/art/acpcdetect -M -o ${DATA_DIR}/str/acpc.nii -i ${DATA_DIR}/str/t1_Crop_1.nii
+  ~/apps/ants/bin/N4BiasFieldCorrection -v -d 3 -i  ${DATA_DIR}/str/acpc.nii -o ${DATA_DIR}/str/n4.nii.gz -s 4 -b [200] -c [50x50x50x50,0.000001]
+  ~/apps/c3d/bin/c3d ${DATA_DIR}/str/n4.nii.gz -resample-mm 1x1x1mm -o ${DATA_DIR}/str/resampled.nii.gz
+
+Batch Script
+------------
+
+Create script:
+
+.. code-block:: bash
+
+  vi ~/scripts/MIOS/preprocess_batch.sh
+
+Copy and paste code:
+
+.. code-block:: bash
+
+  #!/bin/bash
+
+  for subj in $(ls ~/compute/images/MIOS/); do
+  sbatch \
+  -o ~/logfiles/${1}/output_${subj}.txt \
+  -e ~/logfiles/${1}/error_${subj}.txt \
+  ~/scripts/MIOS/preprocess_job.sh \
+  ${subj}
+  sleep 1
+  done
+
+Submit Job
+----------
+
+.. code-block:: bash
+
+  var=`date +"%Y%m%d-%H%M%S"`
+  mkdir -p ~/logfiles/$var
+  sh ~/scripts/MIOS/preprocess_batch.sh $var
