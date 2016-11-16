@@ -8,6 +8,7 @@ Welcome!
 
    MIOS-template
    MIOS-preprocess
+   MIOS-antscorticalthickness
    MIOS-mindboggle
 
 .. toctree::

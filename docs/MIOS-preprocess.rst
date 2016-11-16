@@ -172,8 +172,8 @@ Copy and paste code:
   sleep 1
   done
 
-Submit Job
-----------
+Submit Jobs
+-----------
 
 .. code-block:: bash
 
@@ -190,3 +190,21 @@ Sync Data
   -rauv \
   intj5@ssh.fsl.byu.edu:~/compute/images/MIOS/ \
   /Volumes/data/images/MIOS/
+
+Clean Up Directory
+------------------
+
+Once you have confirmed your resampled.nii.gz came out correctly:
+
+  .. code-block:: bash
+
+  find ~/compute/images/MIOS/ -type f -name "*.ppm" -exec rm {} \;
+  find ~/compute/images/MIOS/ -type f -name "t1.nii" -exec rm {} \;
+  find ~/compute/images/MIOS/ -type f -name "t1_Crop_1.nii" -exec rm {} \;
+  find ~/compute/images/MIOS/ -type f -name "n4.nii.gz" -exec rm {} \;
+  find ~/compute/images/MIOS/ -type f -name "acpc.nii" -exec rm {} \;
+  find ~/compute/images/MIOS/ -type f -name "t1_Crop_1_ACPC.txt" -exec rm {} \;
+  for i in $(find ~/compute/image/MIOS/ -type f -name "resampled.nii.gz"); do
+    cd $(dirname $i)
+    mv $i $(dirname $i)/t1.nii.gz
+  done
