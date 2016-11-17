@@ -1,4 +1,4 @@
 Lab Protocols
 =============
 
-* `MIOS<http://biabl.readthedocs.io/projects/mios/en/latest/#>`_
+* `MIOS <http://biabl.readthedocs.io/projects/mios/en/latest/#>`_
