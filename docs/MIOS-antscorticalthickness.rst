@@ -1,11 +1,8 @@
 ANTs Cortical Thickness
 =======================
 
-OASIS-30 Template
------------------
-
 Job Script
-~~~~~~~~~~
+----------
 
 Create script:
 
@@ -54,7 +51,7 @@ Copy and paste:
   -o ~/compute/analyses/MIOS/antsCT_OASIS30/${1}/
 
 Batch Script
-~~~~~~~~~~~~
+------------
 
 Create script:
 
@@ -78,7 +75,7 @@ Copy and paste:
   done
 
 Submit Jobs
-~~~~~~~~~~~
+-----------
 
 .. code-block:: bash
 
@@ -87,7 +84,7 @@ Submit Jobs
   sh ~/scripts/MIOS/antsCT_OASIS30_batch.sh $var
 
 Sync Data
-~~~~~~~~~
+---------
 
 .. code-block:: bash
 
