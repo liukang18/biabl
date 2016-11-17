@@ -78,7 +78,7 @@ Copy and paste code:
 
   #!/bin/bash
 
-  #SBATCH --time=10:00:00   # walltime
+  #SBATCH --time=05:00:00   # walltime
   #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
   #SBATCH --nodes=1   # number of nodes
   #SBATCH --mem-per-cpu=32768M  # memory per CPU core
