@@ -1,6 +1,8 @@
 Lab Protocols
 =============
 
+.. literalinclude:: /projects/mios/index.rst
+
 .. toctree::
    :maxdepth: 1
    :glob:
