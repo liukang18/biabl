@@ -1,15 +1,11 @@
-Welcome!
-========
+# Welcome!
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :caption: MIOS
+## MIOS
 
-   MIOS-template
-   MIOS-preprocess
-   MIOS-antscorticalthickness
-   MIOS-mindboggle
+MIOS-template
+MIOS-preprocess
+MIOS-antscorticalthickness
+[MIOS-mindboggle](MIOS-mindboggle.md)
 
 .. toctree::
    :maxdepth: 1
