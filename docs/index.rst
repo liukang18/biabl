@@ -6,10 +6,11 @@ Lab Protocols
    :glob:
    :caption: MIOS
 
-   MIOS-template
+   MIOS-template.rst
    MIOS-preprocess
    MIOS-antscorticalthickness
    MIOS-mindboggle
+   MIOS-template.md
 
 .. toctree::
    :maxdepth: 1
