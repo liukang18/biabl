@@ -85,3 +85,12 @@ Submit Jobs
   var=`date +"%Y%m%d-%H%M%S"`
   mkdir -p ~/logfiles/$var
   sh ~/scripts/MIOS/antsCT_OASIS30_batch.sh $var
+
+Sync Data
+~~~~~~~~~
+
+.. code-block:: bash
+
+  rsync -rauv \
+  intj5@ssh.fsl.byu.edu:/fslhome/intj5/compute/analyses/MIOS/antsCT_OASIS30 \
+  /Volumes/data/analyses/MIOS/

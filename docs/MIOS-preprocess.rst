@@ -196,7 +196,7 @@ Clean Up Directory
 
 Once you have confirmed your resampled.nii.gz came out correctly:
 
-  .. code-block:: bash
+.. code-block:: bash
 
   find ~/compute/images/MIOS/ -type f -name "*.ppm" -exec rm {} \;
   find ~/compute/images/MIOS/ -type f -name "t1.nii" -exec rm {} \;
